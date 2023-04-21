@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.advice-container{
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+    margin-top: 400px;
+    margin-left: 650px;
+    position: relative;
+}
+
+.line{
+    height: 1px;
+    width: 200px;
+    background-color: hsl(193, 38%, 86%);
+}
+.line1{
+    height: 1px;
+    width: 200px;
+    background-color: hsl(193, 38%, 86%);
+}
+
+.middle{
+    height: 20px;
+    width: 8px;
+    background-color: white;
+    border-radius: 10px;
+}
+.middle1{
+    height: 20px;
+    width: 8px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.divider{
+    position: absolute;
+    top: 23vh;
+}
+
+.circle{
+    height:70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    margin-left: 19vh;
+    position: absolute;
+    top: 28vh;
+}
+.circle img{
+    margin-top: 23px;
+    margin-left: 22px;
+}
+
+/* @media screen and (max-width: 400px) {
+
+    .advice-container{
+        height: 500px;
+        width: 300px;
+        position: relative;
+    }
+
+    .advice-container p{
+        min-height: 40px;
+    }
+
+    .circle{
+        position: absolute;
+        top: 29rem;
+        left: 13vh;
+    }
+
+    .divider{
+        position: absolute;
+        top: 25rem;
+        right: 6.5vh;
+    }
+
+    .line{
+        width: 80px;
+    }
+
+    .line1{
+        width: 80px;
+    }
+
+} */
+
+/*MAKE THE PARENT CONTAINER RELATIVE------MAKE THE TARGET CONTAINER ABSOLUTE
+MIN AND MAX HEIGHT FOR THE TEXT TO STAY WITHIN THE CONTAINER
+*/
